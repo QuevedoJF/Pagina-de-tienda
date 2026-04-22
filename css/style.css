@@ -1,0 +1,45 @@
+body{
+    margin:0px;
+    background-image: url("fondo.jpg");
+     background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.header{
+    background-color: brown;
+    height: 200px;
+    color:#ffffff;
+}
+.padre{
+    display: flex;
+}
+
+.side-left{
+    background-color: aqua;
+    height: 100px;
+    width: 50%;
+    padding: 0px;
+    margin: 5px 5px 0px 5px;
+    display: inline-block;
+}
+.side-right{
+    background-color: rgb(75, 23, 94);
+    height: 100px;
+    width: 50%;
+    padding: 0;
+    margin: 5px 5px 0px 0px;
+    display: inline-block;  
+}
+
+.content{
+        background-color: #000;
+        height: 500px;
+        margin: 5px 0px 0px 0px;
+}
+
+.footer{
+    background-color: rgb(48, 47, 47);
+    height: 200px;
+    margin: 5px 0px 0px 0px;
+}
